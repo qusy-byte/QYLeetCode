@@ -16,6 +16,8 @@
 		846284EE275F4A8E00299682 /* QYLeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846284ED275F4A8E00299682 /* QYLeetCodeTests.swift */; };
 		846284F8275F4A8E00299682 /* QYLeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846284F7275F4A8E00299682 /* QYLeetCodeUITests.swift */; };
 		846284FA275F4A8E00299682 /* QYLeetCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846284F9275F4A8E00299682 /* QYLeetCodeUITestsLaunchTests.swift */; };
+		84628507275F50D900299682 /* QYDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84628506275F50D800299682 /* QYDetailController.swift */; };
+		84628509275F549800299682 /* QYQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84628508275F549800299682 /* QYQuestionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		846284F3275F4A8E00299682 /* QYLeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYLeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846284F7275F4A8E00299682 /* QYLeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYLeetCodeUITests.swift; sourceTree = "<group>"; };
 		846284F9275F4A8E00299682 /* QYLeetCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYLeetCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84628506275F50D800299682 /* QYDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYDetailController.swift; sourceTree = "<group>"; };
+		84628508275F549800299682 /* QYQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYQuestionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				846284D6275F4A8800299682 /* AppDelegate.swift */,
 				846284D8275F4A8800299682 /* SceneDelegate.swift */,
 				846284DA275F4A8800299682 /* ViewController.swift */,
+				84628508275F549800299682 /* QYQuestionCell.swift */,
+				84628506275F50D800299682 /* QYDetailController.swift */,
 				846284DC275F4A8800299682 /* Main.storyboard */,
 				846284DF275F4A8D00299682 /* Assets.xcassets */,
 				846284E1275F4A8D00299682 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84628507275F50D900299682 /* QYDetailController.swift in Sources */,
 				846284DB275F4A8800299682 /* ViewController.swift in Sources */,
 				846284D7275F4A8800299682 /* AppDelegate.swift in Sources */,
 				846284D9275F4A8800299682 /* SceneDelegate.swift in Sources */,
+				84628509275F549800299682 /* QYQuestionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
